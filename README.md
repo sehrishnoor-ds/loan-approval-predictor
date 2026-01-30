@@ -22,6 +22,24 @@ While **Logistic Regression** is standard in banking for its "explainability," *
 - Serialization: Joblib
 
 # 💻 How to Run the App
-Clone the repository: 
-git clone https://github.com/sehrishnoor-ds/loan-approval-predictor.git
-cd loan_approval_predictor
+1. Clone the repository:
+Run the following commands,
+- git clone https://github.com/sehrishnoor-ds/loan-approval-predictor.git
+- cd loan_approval_predictor
+2. Install dependencies:
+- pip install -r requirements.txt
+3. Run the Streamlit app:
+Open your termial of VSCode RUN(if you are working in it),
+- streamlit run app.py
+
+# 📝 Conclusion
+By utilizing XGBoost, this system achieved a 93% accuracy rate, significantly outperforming the baseline linear model. This highlights the power of ensemble learning in financial risk assessment, where even a 1-2% increase in accuracy can prevent significant financial loss.
+
+
+
+
+
+
+
+
+
