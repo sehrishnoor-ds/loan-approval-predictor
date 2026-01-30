@@ -1,4 +1,4 @@
-# Loan-Approval-Prediction-System
+# Loan Approval Prediction System
 An end-to-end Machine Learning project that predicts the likelihood of loan approval based on borrower profiles. This project features a comparative analysis of multiple ML models and a real-time interactive dashboard for predictions.
 # 🚀 Project Overview
 In the financial sector, accurately predicting loan defaults is critical for risk management. This project explores various classification algorithms to find the most robust model for credit scoring.
@@ -8,7 +8,20 @@ In the financial sector, accurately predicting loan defaults is critical for ris
 * **Model Comparison:** Evaluated 4 different algorithms to find the optimal balance between accuracy and interpretability.
 * **Interactive UI:** Built a Streamlit dashboard that allows users to input borrower details (Income, Credit Score, etc.) and get an instant "Approved" or "Rejected" result with a confidence score.
 
-## Model Performance & Analysis
+# Model Performance & Analysis
 I compared four different machine learning models to determine which performed best on the loan dataset:
-! [Analysis of 4 ML models](loan model table.png)
+![Analysis of 4 ML models](loan model table.png)
 
+## Why XGBoost?
+While **Logistic Regression** is standard in banking for its "explainability," **XGBoost** was chosen for the final deployment. Its gradient boosting architecture and built-in regularization allowed it to capture subtle patterns (like the interaction between loan-to-income ratio and credit history) that simpler model (LR) missed.
+
+# 🛠️ Tech Stack
+- Language: Python
+- Libraries: Pandas, NumPy, Scikit-Learn, XGBoost
+- Deployment: Streamlit
+- Serialization: Joblib
+
+# 💻 How to Run the App
+Clone the repository: 
+git clone https://github.com/sehrishnoor-ds/loan-approval-predictor.git
+cd loan_approval_predictor
