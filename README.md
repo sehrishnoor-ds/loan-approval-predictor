@@ -1,5 +1,8 @@
 # Loan Approval Prediction System
 An end-to-end Machine Learning project that predicts the likelihood of loan approval based on borrower profiles. This project features a comparative analysis of multiple ML models and a real-time interactive dashboard for predictions.
+
+Here is the link to Loan Approval Predictor Web App: https://loan-approval-predictor-kddm4mnkehxribegw5xpbd.streamlit.app/
+
 # 🚀 Project Overview
 In the financial sector, accurately predicting loan defaults is critical for risk management. This project explores various classification algorithms to find the most robust model for credit scoring.
 
