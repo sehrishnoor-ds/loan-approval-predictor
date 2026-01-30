@@ -8,7 +8,7 @@ In the financial sector, accurately predicting loan defaults is critical for ris
 * **Model Comparison:** Evaluated 4 different algorithms to find the optimal balance between accuracy and interpretability.
 * **Interactive UI:** Built a Streamlit dashboard that allows users to input borrower details (Income, Credit Score, etc.) and get an instant "Approved" or "Rejected" result with a confidence score.
 
-# Model Performance & Analysis
+# 📊 Model Performance & Analysis
 I compared four different machine learning models to determine which performed best on the loan dataset:
 ![Analysis of 4 ML models](loan model table.png)
 
